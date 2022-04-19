@@ -28,5 +28,6 @@ jobs:
       run: ls -a
       
     - name: List the current directory
-      run: cd target
-           ls -a
+      run: 
+        cd target
+        ls -a
