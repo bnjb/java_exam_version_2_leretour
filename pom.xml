@@ -22,4 +22,14 @@
 </plugins>
 </pluginManagement>
 </build>
+
+<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>com.mspr</id>
+      <name>java_exam_version_2_leretour</name>
+      <url>scp://repo/maven2</url>
+      <layout>default</layout>
+    </repository>
+</distributionManagement>
 </project>
