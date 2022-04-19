@@ -23,13 +23,12 @@
 </pluginManagement>
 </build>
 
-<distributionManagement>
-    <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>com.mspr</id>
-      <name>java_exam_version_2_leretour</name>
-      <url>scp://repo/maven2</url>
-      <layout>default</layout>
-    </repository>
-</distributionManagement>
+    <repositories>
+        <repository>
+            <id>com.mspr</id>
+            <name>java_exam_version_2_leretour</name>
+            <url>https://github.com/bnjb/java_exam_version_2_leretour</url>
+        </repository>
+ 
+    </repositories>
 </project>
