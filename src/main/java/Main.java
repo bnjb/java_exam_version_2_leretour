@@ -27,9 +27,9 @@ public class Main {
 		// 1. ask user for a file name (or file path)
 		
 		System.out.println("Nom du fichier :");
-		filenameIn = scanner.nextLine(); // = aahans
-		filenameIn = filenameIn + ".txt";// . txt
-		String picture = filenameIn.substring(0, filenameIn.length() - 4); //ahans
+		filenameIn = scanner.nextLine(); // 
+		filenameIn = filenameIn + ".txt";// 
+		String picture = filenameIn.substring(0, filenameIn.length() - 4); 
 		picture = picture + ".png"; // ahans.png
 		// 2. check if file exists
 		
@@ -55,7 +55,7 @@ public class Main {
 			// 4. determine if file is empty
 			
 			try {
-				line 	= fileIn.nextLine(); //ahans.txt
+				line 	= fileIn.nextLine();
 				agent.nom = line;
 				int count = 0;
 				while(fileIn.hasNextLine()) {
