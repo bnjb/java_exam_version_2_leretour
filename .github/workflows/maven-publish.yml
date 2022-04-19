@@ -27,7 +27,3 @@ jobs:
     - name: List the current directory
       run: ls -a
       
-    - name: List the current directory
-      run: 
-        cd target
-        ls -a
